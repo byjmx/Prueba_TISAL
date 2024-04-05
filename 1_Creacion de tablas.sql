@@ -3,7 +3,7 @@
 CREATE TABLE tabla_a 
 (order_number INT NOT NULL , 
 header_id INT NOT NULL , 
-constraint pk_tabla_a
+CONSTRAINT pk_tabla_a
 PRIMARY KEY (header_id));
 
 CREATE TABLE tabla_b 
